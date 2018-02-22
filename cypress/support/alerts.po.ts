@@ -6,6 +6,8 @@ export class AlertsPo extends BaseComponent {
   ghLinkToComponent = 'https://github.com/valor-software/ngx-bootstrap/tree/development/src/alert';
 
   linkClass = '.alert-link';
+  heading = '.alert-heading';
+  dismissOption = '.close';
   buttonToggler = 'Toggle dismissible';
   buttonReset = 'Reset';
   buttonChangeText = 'Change text';

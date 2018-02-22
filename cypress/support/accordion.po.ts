@@ -9,6 +9,11 @@ export class AccordionPo extends BaseComponent {
   buttonPanelToggler = 'Toggle last panel';
   buttonAddItem = 'Add';
 
+  openClass = 'panel-open';
+  disabledPanelText = '.text-muted';
+  panelCard = '.card';
+  panelBody = '.panel-body';
+
   exampleDemosArr = {
     basic: 'demo-accordion-basic',
     disabled: 'demo-accordion-disabled',
